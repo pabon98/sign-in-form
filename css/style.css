@@ -60,6 +60,16 @@ img{
     justify-content: center;
     align-items: center;
 }
+.footer-part{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(240, 39, 233);
+}
+.span .icons{
+    color: blue;
+    font-size: 1.5rem;
+}
+
 @keyframes slidein {
   from {
     margin-left: 100%;
