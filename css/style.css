@@ -4,7 +4,7 @@ h1{
   
 }
 img{
-    width: 20%;
+    width: 15%;
 }
 .Email{
     margin-top: 10px;
@@ -19,6 +19,7 @@ img{
 }
 .forgot-password{
     margin-left: 200px;
+    text-decoration: blue;
 }
 .Submit{
     width: 80px;
@@ -42,6 +43,26 @@ img{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: crimson;
+}
+.gotohome{
+    transform: rotate(360deg);
+    transition: transform 2s;
+    position: relative;
+    left: 43%;
+    top: 30px;
+    font-size: 24px;
+    border-radius: 8px;
+    background-color:cyan;
+    /* animation-duration: 1s;
+    animation-name:slidein; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ a {
+    text-decoration: none;
 }
 .forgot{
     margin-top: 40px;
@@ -65,7 +86,7 @@ img{
     font-size: 20px;
     color: rgb(240, 39, 233);
 }
-.span .icons{
+.icons{
     color: blue;
     font-size: 1.5rem;
 }
