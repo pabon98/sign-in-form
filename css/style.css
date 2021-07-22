@@ -36,6 +36,8 @@ img{
 }
 .submission-message{
     font-size: 20px;
+    animation-duration: 1s;
+    animation-name: slidein;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -58,4 +60,15 @@ img{
     justify-content: center;
     align-items: center;
 }
-    
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
